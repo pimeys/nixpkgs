@@ -16,6 +16,7 @@ stdenv.mkDerivation {
     ./0001-vfs0090-add-missing-explicit-dependencies-in-meson.b.patch
     # TODO remove once https://gitlab.freedesktop.org/3v1n0/libfprint-tod-vfs0090/-/merge_requests/2 is merged
     ./0002-vfs0090-add-missing-linux-limits.h-include.patch
+    ./0003-VFS0097-Update-vfs0090.h.patch
   ];
 
   nativeBuildInputs = [ pkg-config meson ninja ];
