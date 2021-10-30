@@ -2253,6 +2253,18 @@ final: prev:
     meta.homepage = "https://github.com/ellisonleao/glow.nvim/";
   };
 
+  gnvim-lsp = buildVimPluginFrom2Nix {
+    pname = "gnvim-lsp";
+    version = "2019-02-09";
+    src = fetchFromGitHub {
+      owner = "vhakulinen";
+      repo = "gnvim-lsp";
+      rev = "f137b5362dab3c1897c76f50f761e59411effc78";
+      sha256 = "0jxj0lqcgc6i5qz7n0k4zq1zw0x69g3njmw3g5g9a1dwcb7wnyqw";
+    };
+    meta.homepage = "https://github.com/vhakulinen/gnvim-lsp/";
+  };
+
   golden-ratio = buildVimPluginFrom2Nix {
     pname = "golden-ratio";
     version = "2020-04-03";
