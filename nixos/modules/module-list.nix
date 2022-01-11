@@ -559,6 +559,7 @@
   ./services/misc/matrix-conduit.nix
   ./services/misc/matrix-synapse.nix
   ./services/misc/mautrix-facebook.nix
+  ./services/misc/mautrix-signal.nix
   ./services/misc/mautrix-telegram.nix
   ./services/misc/mbpfan.nix
   ./services/misc/mediatomb.nix
