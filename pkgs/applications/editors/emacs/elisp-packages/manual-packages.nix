@@ -200,17 +200,17 @@
 
   prisma-mode = melpaBuild {
     pname = "prisma-mode";
-    version = "20221214.0";
+    version = "20221214.1";
 
-    commit = "3afb9d0c55f7f1353060fc58e5c2488ae31ff2d8";
+    commit = "880530d34e10382773e8f207f3b205689fc69cb2";
 
     packageRequires = [ js2-mode ];
 
     src = pkgs.fetchFromGitHub {
       owner = "pimeys";
       repo = "emacs-prisma-mode";
-      rev = "3afb9d0c55f7f1353060fc58e5c2488ae31ff2d8";
-      sha256 = "sha256-qX7CHVPWien6BA3SSd2WJn/wCa4YQncd5TbcGyCLLlY=";
+      rev = "880530d34e10382773e8f207f3b205689fc69cb2";
+      sha256 = "sha256-Rtx9lUidWb36p+IWn/X8ztr/nx0vawReLZYIOk5C1Mk=";
     };
 
     recipe = pkgs.writeText "recipe" ''
