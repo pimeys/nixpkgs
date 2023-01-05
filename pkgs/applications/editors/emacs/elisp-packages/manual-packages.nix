@@ -197,10 +197,10 @@
   power-mode = callPackage ./power-mode { };
 
   prisma-mode = let
-    rev = "5283ca7403bcb21ca0cac8ecb063600752dfd9d4";
+    rev = "cc45ea10d8dc1bfb7120a1cecfa253196b7b348b";
   in melpaBuild {
     pname = "prisma-mode";
-    version = "20211207.0";
+    version = "20230105.0";
 
     commit = rev;
 
@@ -210,7 +210,7 @@
       owner = "pimeys";
       repo = "emacs-prisma-mode";
       inherit rev;
-      sha256 = "sha256-DJJfjbu27Gi7Nzsa1cdi8nIQowKH8ZxgQBwfXLB0Q/I=";
+      sha256 = "sha256-aXMIDmQgyvuwcnRlL/xhhskFpAwosQtNg81VKIs7/OE=";
     };
 
     recipe = pkgs.writeText "recipe" ''
